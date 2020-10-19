@@ -5,7 +5,7 @@ module.exports = {
     jsx: 'react',
     optimizeDeps: {
         auto: true,
-        link: ['package-b'],
+        link: ['package-b', 'some-react-components'],
     },
     // plugins: [vpr],
     configureServer: ({ app }) =>
