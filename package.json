@@ -1,13 +1,19 @@
 {
-  "name": "monorepo-pnp-vite",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ],
-  "dependencies": {
-    "@yarnpkg/pnpify": "^2.3.3",
-    "typescript": "^4.0.3"
-  }
+    "name": "monorepo-pnp-vite",
+    "version": "1.0.0",
+    "private": true,
+    "main": "index.js",
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "myvite": "node /Users/morse/Documents/GitHub/vite/bin/vite.js"
+    },
+    "dependencies": {
+        "@pika/react": "^16.13.1",
+        "@pika/react-dom": "^16.13.1",
+        "@yarnpkg/pnpify": "^2.3.3",
+        "typescript": "^4.0.3"
+    }
 }

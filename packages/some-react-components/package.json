@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.tsx",
   "dependencies": {
+    "@pika/react": "^16.13.1",
     "lodash-es": "^4.17.15",
     "react": "*"
   }
