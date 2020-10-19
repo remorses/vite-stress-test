@@ -29,6 +29,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {
         "name": "package-b",
         "reference": "workspace:packages/package-b"
+      },
+      {
+        "name": "some-react-components",
+        "reference": "workspace:packages/some-react-components"
       }
     ],
     "enableTopLevelFallback": true,
@@ -36,7 +40,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackExclusionList": [
       ["monorepo-pnp-vite", ["workspace:."]],
       ["package-a", ["workspace:packages/package-a"]],
-      ["package-b", ["workspace:packages/package-b"]]
+      ["package-b", ["workspace:packages/package-b"]],
+      ["some-react-components", ["workspace:packages/some-react-components"]]
     ],
     "fallbackPool": [
     ],
@@ -4072,6 +4077,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["package-b", "workspace:packages/package-b"],
             ["react", "npm:16.14.0"],
             ["react-dom", "virtual:548a4f0007c977332892871f8b7fa348ad452ef65d92b7d3120a6f5a77f16f95d1827b7a528addd7f65c703d53df82294807ba09cd4850126628ec1ffd08aac6#npm:16.14.0"],
+            ["some-react-components", "workspace:packages/some-react-components"],
             ["vite", "npm:1.0.0-rc.4"],
             ["vite-plugin-react", "virtual:548a4f0007c977332892871f8b7fa348ad452ef65d92b7d3120a6f5a77f16f95d1827b7a528addd7f65c703d53df82294807ba09cd4850126628ec1ffd08aac6#npm:3.0.2"]
           ],
@@ -5024,6 +5030,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["slash", "npm:3.0.0"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["some-react-components", [
+        ["workspace:packages/some-react-components", {
+          "packageLocation": "./packages/some-react-components/",
+          "packageDependencies": [
+            ["some-react-components", "workspace:packages/some-react-components"],
+            ["lodash-es", "npm:4.17.15"],
+            ["react", "npm:16.14.0"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["source-map", [

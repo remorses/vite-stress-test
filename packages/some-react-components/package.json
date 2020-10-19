@@ -1,0 +1,9 @@
+{
+  "name": "some-react-components",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "dependencies": {
+    "lodash-es": "^4.17.15",
+    "react": "*"
+  }
+}

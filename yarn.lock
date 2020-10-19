@@ -3533,6 +3533,7 @@ fsevents@~2.1.2:
     package-b: "*"
     react: ^16.14.0
     react-dom: ^16.14.0
+    some-react-components: "*"
     vite: ^1.0.0-rc.4
     vite-plugin-react: ^3.0.2
   languageName: unknown
@@ -3968,7 +3969,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"react@npm:^16.14.0":
+"react@npm:*, react@npm:^16.14.0":
   version: 16.14.0
   resolution: "react@npm:16.14.0"
   dependencies:
@@ -4386,6 +4387,15 @@ fsevents@~2.1.2:
   checksum: fc3e8597d822ee3ba6cd76e9b001cd5be315f9b81c3a03a29bb611c003d1484e3b29a9e7bc020298fa669b585ff7c9268f44513f60c186216eb6af3111a3e838
   languageName: node
   linkType: hard
+
+"some-react-components@*, some-react-components@workspace:packages/some-react-components":
+  version: 0.0.0-use.local
+  resolution: "some-react-components@workspace:packages/some-react-components"
+  dependencies:
+    lodash-es: ^4.17.15
+    react: "*"
+  languageName: unknown
+  linkType: soft
 
 "source-map-support@npm:~0.5.12":
   version: 0.5.19
