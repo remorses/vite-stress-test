@@ -2918,6 +2918,11 @@ esbuild@^0.6.10:
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.6.34.tgz#76565a60e006f45d5f273b6e59e61ed0816551f5"
   integrity sha512-InRdL/Q96pUucPqovJzvuLhquZr6jOn81FDVwFjCKz1rYKIm9OdOC+7Fs4vr6x48vKBl5LzKgtjU39BUpO636A==
 
+esbuild@^0.7.19:
+  version "0.7.19"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.7.19.tgz#6f8b94445e06f8bf6125183a877de6046c965abc"
+  integrity sha512-0Ur8ZtuRPwJMj4+VjRLqn5z88WXf+2etZhe4dBA6eYFcdviQefb+Vrd59cTk0VXg08NU/BnAMkalCMHI8lig/A==
+
 escape-html@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -6664,6 +6669,11 @@ tiny-emitter@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
+
+tmpfile@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/tmpfile/-/tmpfile-0.2.0.tgz#4bea580e676b669ca755947130108caba572e7c8"
+  integrity sha1-S+pYDmdrZpynVZRxMBCMq6Vy58g=
 
 tmpl@1.0.x:
   version "1.0.4"

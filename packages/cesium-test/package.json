@@ -3,6 +3,7 @@
     "version": "0.0.0",
     "scripts": {
         "test": "jest",
+        "dev": "vite",
         "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
         "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
     },

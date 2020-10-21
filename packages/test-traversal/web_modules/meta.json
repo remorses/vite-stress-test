@@ -1,0 +1,217 @@
+{
+  "inputs": {
+    "../../node_modules/@pika/react-dom/source.development.js": {
+      "bytes": 907066,
+      "imports": [
+        {
+          "path": "../../node_modules/react/index.js"
+        }
+      ]
+    },
+    "../../node_modules/@pika/react/source.development.js": {
+      "bytes": 105630,
+      "imports": []
+    },
+    "../../node_modules/lodash/fp.js": {
+      "bytes": 101,
+      "imports": [
+        {
+          "path": "../../node_modules/lodash/lodash.min.js"
+        },
+        {
+          "path": "../../node_modules/lodash/fp/_baseConvert.js"
+        }
+      ]
+    },
+    "../../node_modules/lodash/fp/_baseConvert.js": {
+      "bytes": 16414,
+      "imports": [
+        {
+          "path": "../../node_modules/lodash/fp/_mapping.js"
+        },
+        {
+          "path": "../../node_modules/lodash/fp/placeholder.js"
+        }
+      ]
+    },
+    "../../node_modules/lodash/fp/_mapping.js": {
+      "bytes": 9955,
+      "imports": []
+    },
+    "../../node_modules/lodash/fp/placeholder.js": {
+      "bytes": 105,
+      "imports": []
+    },
+    "../../node_modules/lodash/lodash.js": {
+      "bytes": 542563,
+      "imports": []
+    },
+    "../../node_modules/lodash/lodash.min.js": {
+      "bytes": 72805,
+      "imports": []
+    },
+    "../../node_modules/object-assign/index.js": {
+      "bytes": 2108,
+      "imports": []
+    },
+    "../../node_modules/prop-types/checkPropTypes.js": {
+      "bytes": 3781,
+      "imports": [
+        {
+          "path": "../../node_modules/prop-types/lib/ReactPropTypesSecret.js"
+        }
+      ]
+    },
+    "../../node_modules/prop-types/lib/ReactPropTypesSecret.js": {
+      "bytes": 314,
+      "imports": []
+    },
+    "../../node_modules/react/cjs/react.development.js": {
+      "bytes": 60645,
+      "imports": [
+        {
+          "path": "../../node_modules/object-assign/index.js"
+        },
+        {
+          "path": "../../node_modules/prop-types/checkPropTypes.js"
+        }
+      ]
+    },
+    "../../node_modules/react/index.js": {
+      "bytes": 190,
+      "imports": [
+        {
+          "path": "../../node_modules/react/cjs/react.development.js"
+        }
+      ]
+    },
+    "../../node_modules/some-react-components/index.tsx": {
+      "bytes": 251,
+      "imports": [
+        {
+          "path": "../../node_modules/react/index.js"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "web_modules/node_modules/@pika/react/source.development.js": {
+      "imports": [],
+      "inputs": {
+        "../../node_modules/@pika/react/source.development.js": {
+          "bytesInOutput": 77000
+        },
+        "../../node_modules/@pika/react/source.development.js": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 77541
+    },
+    "web_modules/node_modules/@pika/react-dom/source.development.js": {
+      "imports": [
+        {
+          "path": "web_modules/chunk.TSDUKQEY.js"
+        },
+        {
+          "path": "web_modules/chunk.Y7FREAVH.js"
+        }
+      ],
+      "inputs": {
+        "../../node_modules/@pika/react-dom/source.development.js": {
+          "bytesInOutput": 651689
+        },
+        "../../node_modules/@pika/react-dom/source.development.js": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 652162
+    },
+    "web_modules/node_modules/lodash/fp.js": {
+      "imports": [
+        {
+          "path": "web_modules/chunk.Y7FREAVH.js"
+        }
+      ],
+      "inputs": {
+        "../../node_modules/lodash/lodash.min.js": {
+          "bytesInOutput": 125520
+        },
+        "../../node_modules/lodash/fp/_mapping.js": {
+          "bytesInOutput": 10500
+        },
+        "../../node_modules/lodash/fp/placeholder.js": {
+          "bytesInOutput": 87
+        },
+        "../../node_modules/lodash/fp/_baseConvert.js": {
+          "bytesInOutput": 10704
+        },
+        "../../node_modules/lodash/fp.js": {
+          "bytesInOutput": 150
+        }
+      },
+      "bytes": 147268
+    },
+    "web_modules/node_modules/lodash/lodash.js": {
+      "imports": [
+        {
+          "path": "web_modules/chunk.Y7FREAVH.js"
+        }
+      ],
+      "inputs": {
+        "../../node_modules/lodash/lodash.js": {
+          "bytesInOutput": 209584
+        }
+      },
+      "bytes": 209713
+    },
+    "web_modules/packages/some-react-components/index.js": {
+      "imports": [
+        {
+          "path": "web_modules/chunk.TSDUKQEY.js"
+        },
+        {
+          "path": "web_modules/chunk.Y7FREAVH.js"
+        }
+      ],
+      "inputs": {
+        "../../node_modules/some-react-components/index.tsx": {
+          "bytesInOutput": 252
+        },
+        "../../node_modules/some-react-components/index.tsx": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 442
+    },
+    "web_modules/chunk.TSDUKQEY.js": {
+      "imports": [
+        {
+          "path": "web_modules/chunk.Y7FREAVH.js"
+        }
+      ],
+      "inputs": {
+        "../../node_modules/object-assign/index.js": {
+          "bytesInOutput": 2017
+        },
+        "../../node_modules/prop-types/lib/ReactPropTypesSecret.js": {
+          "bytesInOutput": 207
+        },
+        "../../node_modules/prop-types/checkPropTypes.js": {
+          "bytesInOutput": 2280
+        },
+        "../../node_modules/react/cjs/react.development.js": {
+          "bytesInOutput": 49485
+        },
+        "../../node_modules/react/index.js": {
+          "bytesInOutput": 181
+        }
+      },
+      "bytes": 55459
+    },
+    "web_modules/chunk.Y7FREAVH.js": {
+      "imports": [],
+      "inputs": {},
+      "bytes": 188
+    }
+  }
+}

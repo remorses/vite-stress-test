@@ -1,0 +1,25 @@
+{
+  "name": "test-traversal",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite serve .",
+    "myvite": "node /Users/morse/Documents/GitHub/vite/bin/vite.js"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "axios": "^0.20.0",
+    "esbuild": "^0.7.19",
+    "lodash": "^4.17.20",
+    "package-b": "*",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "some-react-components": "*",
+    "tmpfile": "^0.2.0"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-beta.14",
+    "vite": "^1.0.0-rc.4",
+    "vite-plugin-react": "^3.0.2"
+  }
+}
