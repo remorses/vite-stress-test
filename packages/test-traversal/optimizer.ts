@@ -10,12 +10,13 @@ import { printStats } from './stats'
 
 const moduleRE = /^\/@modules\//
 
-let alreadyProcessed = false
 export function esbuildOptimizerPlugin({ entryPoints }): ServerPlugin {
     // maps /@modules/module/index.js to /web_modules/module/index.js
     const webModulesResolutions = new Map<string, string>()
 
-    return ({ app, root, resolver, config }) => {
+    // TODO store an hash of lockfiles and last built dependencies to not optimize every time
+    let alreadyProcessed = false
+    return ({ app, root, watcher }) => {
         const dest = path.join(root, 'web_modules')
 
         app.use(async (ctx, next) => {
