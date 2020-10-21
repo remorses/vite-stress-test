@@ -6,6 +6,10 @@ module.exports = {
         auto: false,
         link: ['package-b', 'some-react-components'],
     },
+    alias: {
+        lodash: './lodash-alias',
+        'lodash/fp': './lodash-fp-alias',
+    },
     // plugins: [vpr],
     configureServer: ({ app }) =>
         app.use(async (ctx, next) => {
