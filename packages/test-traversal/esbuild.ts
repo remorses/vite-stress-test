@@ -56,6 +56,8 @@ export async function bundleWithEsBuild({
             global: 'window',
             ...generateEnvReplacements(env),
         },
+        // TODO inject polyfills for process, ...etc
+        // TODO add plugin for pnp resolution
         tsconfig: tsconfigTempFile,
         bundle: true,
         format: 'esm',

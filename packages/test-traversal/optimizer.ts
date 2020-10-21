@@ -26,9 +26,8 @@ export function esbuildOptimizerPlugin({ entryPoints }): ServerPlugin {
                 ctx.type = 'js'
                 const resolved = webModulesResolutions.get(ctx.path)
                 console.info(ctx.path, '-->', resolved)
-                ctx.redirect(resolved)
-                // ctx.body = await fsp.readFile(resolved)
-                // ctx.status = 200
+                ctx.redirect(resolved) // redirect will change referer and resolutions to relative imports will work correctly
+                // redirect will also work in export because all relative imports will be converted to absolute paths by the server
             }
 
             if (
