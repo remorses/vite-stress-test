@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 // axios is a commonjs package
-import { merge } from 'lodash/fp'
-import { merge as m } from 'lodash'
+import { merge } from 'lodash-es'
+// import { merge as m } from 'lodash'
 import Counter from './Counter'
 import {SomeComponent} from 'some-react-components'
 
 merge({}, {})
-m({}, {})
+// m({}, {})
 
 function App() {
     const [data, setData] = useState(null)

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 // axios is a commonjs package
 import axios from 'axios'
-import { merge } from 'lodash/fp'
+import lodash from 'lodash'
 import image from './image.png'
 import s from './App.module.css'
 import './simple.css'
@@ -9,7 +9,12 @@ import Counter from './Counter'
 import { func } from 'package-b'
 import { SomeComponent } from 'some-react-components'
 
+
+
+const merge = lodash.merge
 merge({}, {})
+
+console.log(new Error('xxx'))
 
 function App() {
     const [data, setData] = useState(null)

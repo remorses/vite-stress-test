@@ -1,12 +1,13 @@
 import type { UserConfig } from 'vite'
+import vpr from 'vite-plugin-react'
 
 module.exports = {
     jsx: 'react',
     optimizeDeps: {
-        auto: false,
+        auto: true,
         link: ['package-b', 'some-react-components'],
     },
-    // plugins: [vpr],
+    plugins: [vpr],
     configureServer: ({ app }) =>
         app.use(async (ctx, next) => {
             // wait for vite history fallback

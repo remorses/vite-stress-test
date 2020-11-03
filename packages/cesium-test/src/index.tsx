@@ -1,4 +1,3 @@
-
 window.CESIUM_BASE_URL = '/static/Cesium/'
 
 console.log(import.meta)
@@ -15,3 +14,13 @@ ReactDOM.render(
     document.getElementById('root'),
 )
 
+
+
+
+
+// @ts-ignore
+if (import.meta.hot) {
+    import.meta.hot.accept((newModule) => {
+        console.log('updated: count is now ', newModule.count)
+    })
+}

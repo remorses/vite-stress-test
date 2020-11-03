@@ -11,6 +11,8 @@ import * as Cesium from 'cesium';
 import logo from './logo.svg';
 import './App.css';
 
+// throw new Error('ciao')
+
 import { Canvas, useFrame } from 'react-three-fiber';
 import type { Mesh } from 'three';
 
@@ -18,7 +20,9 @@ import { ThemeProvider, theme, CSSReset, Button } from '@chakra-ui/core';
 
 function Box(props: { position: [number, number, number] }) {
   // This reference will give us direct access to the mesh
-  const mesh = useRef<Mesh>();
+  const mesh = useRef<Mesh>()
+
+  
 
   // Set up state for the hovered and active state
   const [hovered, setHover] = useState(false);
