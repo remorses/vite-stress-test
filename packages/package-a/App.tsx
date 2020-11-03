@@ -9,12 +9,12 @@ import Counter from './Counter'
 import { func } from 'package-b'
 import { SomeComponent } from 'some-react-components'
 
-
-
 const merge = lodash.merge
 merge({}, {})
 
 console.log(new Error('xxx'))
+
+
 
 function App() {
     const [data, setData] = useState(null)
