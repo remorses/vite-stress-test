@@ -5,7 +5,7 @@ export default {
     jsx: 'react',
     optimizeDeps: {
         auto: true,
-        link: ['package-b', 'some-react-components'],
+        link: ['package-b', 'some-react-components', 'linked-pkg'],
     },
-    plugins: [vpr],
+    plugins: [{ resolvers: require('vite-plugin-react').resolvers }],
 } as UserConfig

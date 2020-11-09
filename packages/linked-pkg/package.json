@@ -1,0 +1,19 @@
+{
+    "name": "linked-pkg",
+    "version": "1.0.0",
+    "main": "index.tsx",
+    "scripts": {
+        "dev": "vite serve .",
+        "myvite": "node /Users/morse/Documents/GitHub/vite/bin/vite.js"
+    },
+    "dependencies": {
+        "lodash": "^4.17.20",
+        "lodash-es": "^4.17.15",
+        "smoldash": "^0.8.1"
+    },
+    "devDependencies": {
+        "@types/react": "^16.9.53",
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+    }
+}

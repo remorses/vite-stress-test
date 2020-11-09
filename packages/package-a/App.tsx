@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+const { useState, useEffect } = React
 // axios is a commonjs package
 import axios from 'axios'
 import lodash from 'lodash'

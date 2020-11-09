@@ -4,9 +4,18 @@
     "private": true,
     "main": "index.js",
     "license": "MIT",
-    "workspaces": [
-        "packages/*"
-    ],
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ],
+        "nohoist": [
+            "linked-pkg/smoldash",
+            "linked-pkg/**",
+            "smoldash",
+            "**/smoldash/**",
+            "**/smoldash"
+        ]
+    },
     "scripts": {
         "myvite": "node /Users/morse/Documents/GitHub/vite/bin/vite.js"
     },

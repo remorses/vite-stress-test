@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite serve .",
-    "myvite": "node /Users/morse/Documents/GitHub/vite/bin/vite.js "
+    "myvite": "node /Users/morse/Documents/GitHub/vite/bin/vite.js"
   },
   "dependencies": {
     "@pika/react": "^16.13.1",
@@ -14,7 +14,9 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "some-react-components": "*",
-    "typescript": "^4.0.5"
+    "linked-pkg": "*",
+    "typescript": "^4.0.5",
+    "vite": "^1.0.0-rc.9"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-beta.14",
