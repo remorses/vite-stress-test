@@ -3,6 +3,7 @@ const { useState, useEffect } = React
 // axios is a commonjs package
 import axios from 'axios'
 import lodash from 'lodash'
+import { SomeComponent as SomeComponent2 } from 'linked-pkg'
 import image from './image.png'
 import s from './App.module.css'
 import './simple.css'
@@ -14,8 +15,6 @@ const merge = lodash.merge
 merge({}, {})
 
 console.log(new Error('xxx'))
-
-
 
 function App() {
     const [data, setData] = useState(null)
@@ -39,6 +38,7 @@ function App() {
             <br />
             {JSON.stringify(func())}
             <SomeComponent />
+            <SomeComponent2 />
             <Counter />
             <hr />
             <p>Load data using axios:</p>
